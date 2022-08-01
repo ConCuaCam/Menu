@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    background-color: #F1F5F8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    color: #102A42;
+    font-size: 2.5rem;
+    padding: 80px 0 12px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    width: 5rem;
+    height: 0.25rem;
+    background-color: #C59D5F;
+    border: none;
+    margin: 0 auto;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 32px 0 64px;
+}
+
+.nav-btn li {
+    padding: 0 8px;
+}
+
+.nav-btn li a {
+    text-decoration: none;
+    color: #C59D5F;
+    border: 2px solid #C59D5F;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.nav-btn li a:hover {
+    color: #fff;
+    background-color: #C59D5F;
+}
+
+.container-list {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 2rem 3rem;
+    margin: 0 auto;
+    max-width: 1188px;
+    padding-bottom: 50px;
+
+}
+
+.container-item {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    width: 570px;
+    gap: 0 1.25rem;
+}
+
+.img-food {
+    width: 229px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #C59D5F;
+    border-radius: 0.5rem;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #102A42;
+    padding-bottom: 8px;
+}
+
+.food-name {
+    color: #102A42;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+}
+
+.food-prices {
+    color: #C59D5F;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+}
+
+.info-text {
+    color: #617D98;
+    padding-top: 16px;
+    line-height: 1.4;
+}
